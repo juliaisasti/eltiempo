@@ -12,7 +12,7 @@ const WeatherComponent = () => {
   useEffect(() => {
     const getCity = async () => {
       const resp = await axios.get(
-        `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=5&appid=9648e99ac37fa5eee3a6b8955526e716`
+        `https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=5&appid=9648e99ac37fa5eee3a6b8955526e716`
       );
       console.log(city);
       const weather = resp.data[0];
