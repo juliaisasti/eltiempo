@@ -1,0 +1,22 @@
+.weatherCard {
+    display: inline-block;
+    background-color: rgba(123, 135, 188, 0.5);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+}
+
+body {
+    background-image: url("/img/backgroundimg.jpg");
+  }
+
+input {
+    background-color: rgb(245, 229, 229);
+    color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    border-radius: 15px;
+}
